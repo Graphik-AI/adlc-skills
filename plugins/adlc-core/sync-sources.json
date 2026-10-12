@@ -1189,7 +1189,7 @@
       "notice": "notices/LOCAL-SOURCES.md",
       "original_sha256": null,
       "import_date": "2026-10-08",
-      "packaged_sha256": "904dab1822f576da4e864b6d0fa1a339fd8b3affa119dcc08f245e55f83aa38a",
+      "packaged_sha256": "66c3e6bd48b262cfe36a7a18e3980e15443323813694f7774336f0f1494a7126",
       "adaptation": "Original package content; frontend independently authored if within frontend-testing-debugging. See ADAPTATIONS.md.",
       "dependencies": [
         "VERIFICATION.md",
