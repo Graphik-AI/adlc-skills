@@ -1,0 +1,56 @@
+{
+  "candidate_version": "0.1.0",
+  "date": "2026-10-08",
+  "hash_algorithm": "SHA-256",
+  "scope": "Observed cached skill/support bytes; historical guide hashes can differ after documentation-only prerequisite clarifications. Prototype UI branch was not exercised.",
+  "cases": [
+    {
+      "name": "codex-review-and-implementation-debugging",
+      "files": {
+        "skills/code-review/SKILL.md": "f0745481f68ceda6cdd6947d8190678e824b5a953fd1ae2e9047cc67f88a5dc4",
+        "skills/implement/SKILL.md": "0a9f9008a5e40df1e319df7f954deb8a2e82256b76e31652b526f299b69a38cc",
+        "skills/systematic-debugging/SKILL.md": "5d4f7baae47dc364842afaef7f50b11a29780e7c27e76d5e64b658d38b5bfeaa",
+        "skills/tdd/SKILL.md": "cdcd0b7eda5c5f2e1e4974d24f88a8885ac71d30ef669e26435ac9aa519ecaea",
+        "skills/tdd/tests.md": "9ac7fe24ecfe9b8d885a18dfb9e46bfe0a38610e54e032b53c7adf83f95bb489",
+        "skills/tdd/mocking.md": "3ceb807fdf4a47d6a93d4d9a891e5ba6d362a6247bd08adc451feebfc17361ef",
+        "skills/frontend-testing-debugging/SKILL.md": "0709a8739cd1c0ace8dc686ee5f2b4c71f6f19ae59b0d3221d9f4f4bb6926f14",
+        "references/adlc-contract.md": "e5afcc0a89814c54672bda5e3ef00ba3beeef0b86a6e0e0404eea3764f23beb8",
+        "guides/codex.md": "227c5c39b5715bbf45e3e44a76374b9581209ff45b98eb410e21b94ec0fd3ed9"
+      }
+    },
+    {
+      "name": "codex-composition-mapper-research-worktree",
+      "files": {
+        "guides/codex.md": "1f8576108e5c28566711a76bae467e49f5f35f00c5a44f411360c829d47b0d3e",
+        "references/adlc-contract.md": "e5afcc0a89814c54672bda5e3ef00ba3beeef0b86a6e0e0404eea3764f23beb8",
+        "references/issue-tracker-local.md": "7dcda20a2eb4bdc89b95d1143423c0691309921cadae3132e6424f371030506e",
+        "references/triage-labels.md": "4f53c9b40ce2651e3611aa090eaedbd6dbc9b71ef8c5f7e65eac0d8263190d0d",
+        "skills/acquire-codebase-knowledge/SKILL.md": "63a3fc5de0b39fb12b3374ab36bf1be0ab8de67b1aa96dcbd407b880453721ad",
+        "skills/acquire-codebase-knowledge/assets/templates/ARCHITECTURE.md": "3b7a958d153c037a6fc19e35e7e9792650d747491340d83ba831714b6ca02b6c",
+        "skills/acquire-codebase-knowledge/assets/templates/CONCERNS.md": "e970fba021d7faf8bb57041d6d1c8e670d773abf33fe7e0616e16a00280b1114",
+        "skills/acquire-codebase-knowledge/assets/templates/CONVENTIONS.md": "c20c1dca3226992b785229b4ba2c08caada775bd0e26a85f1185d0600b6f2a37",
+        "skills/acquire-codebase-knowledge/assets/templates/INTEGRATIONS.md": "bc1e54de584a72070f3167350d9f445b9257a78fab9adbfad476970c7beaab33",
+        "skills/acquire-codebase-knowledge/assets/templates/STACK.md": "0faf167cb857c14f4f8fbdbebf58727440d80c275fa483dedd7a08e2ac3ebe12",
+        "skills/acquire-codebase-knowledge/assets/templates/STRUCTURE.md": "29a5a387c894135c41c74a1b3e629ece88707c0a56aa9e4153ec9682f5c0c373",
+        "skills/acquire-codebase-knowledge/assets/templates/TESTING.md": "941a0f400441660a5fb9a28f43318f4a13f1a1c79e8cfac03cdf893cd6c3db85",
+        "skills/acquire-codebase-knowledge/references/inquiry-checkpoints.md": "5346358348ff6a48e0a5c0d8cc06d92a478d4f7e65bf361b70809ac6ad307224",
+        "skills/acquire-codebase-knowledge/references/stack-detection.md": "e75d0d3e35c4254ffa3ec68fadc00aa628b5cce2b0a9a6e474ca646936157a2d",
+        "skills/acquire-codebase-knowledge/scripts/scan.py": "d127da0cb9e7447792c8099b529f864be89f7bd8b00555ecbceff539153a137c",
+        "skills/domain-modeling/ADR-FORMAT.md": "944c92aa790e8fbdc9199640b170979abb8a34ba8d0fe18c2a01a63bce140ca0",
+        "skills/domain-modeling/GLOSSARY-FORMAT.md": "21dcc40cdec8e151a829b98ab1517c1867bc444e3665134a98c6983411996801",
+        "skills/domain-modeling/SKILL.md": "10fd6fac469828b251e1b8f4eb2fa36caccbcec298540ab63391d70d4f12480f",
+        "skills/domain-modeling/agents/openai.yaml": "f6bf2aa996c6e6f53fdd0708e18a0d16a56aed8322cca59fedbe3c0d2c75f06b",
+        "skills/grill-with-docs/SKILL.md": "c4ed2833b2f8a769d043666c5331b44d3afa8e7edddfcd172f0a52b0bf031067",
+        "skills/grill-with-docs/agents/openai.yaml": "00d961fbc031c2c0c6384e3a7f5b9ad452f810c6c300765da9ab96164accc34c",
+        "skills/grilling/SKILL.md": "cd6c883fd7875db32fd0612f44a6f242d83e432fb2f314a0b60be23628214fe4",
+        "skills/grilling/agents/openai.yaml": "1411d7df7d99b7e621a1ff8283c8133cc2464be63d064e52d8ce169c6800ee9b",
+        "skills/prototype/LOGIC.md": "46937417df50d2874fcf64e7b9d7a6ec53dfa481c6cea44d069983096a208f32",
+        "skills/prototype/SKILL.md": "2a0bed14ec4af4bc2a1f50dff0d38b15c00e7c8f009de6c250e45f8f7c1b6c2c",
+        "skills/research/SKILL.md": "496f44fbb23a175307f95b866f70531b2595b80dd03563e6071cb24b9305fcdc",
+        "skills/research/agents/openai.yaml": "9b4c470d63221c1f68f22df70b83e2f12401b317babe0d1b7b5f24a974474d0d",
+        "skills/wayfinder/SKILL.md": "f4a89a08c9d0cd3c954d1fa591287b078aee634a00d4c5dbce6e1c45b0574056",
+        "skills/wayfinder/agents/openai.yaml": "88bc81a11a6d52ac67aeaa76b8b619e387020d47c5133a4dd4927fd15c4ad073"
+      }
+    }
+  ]
+}

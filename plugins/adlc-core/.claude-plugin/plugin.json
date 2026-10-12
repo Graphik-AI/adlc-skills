@@ -1,0 +1,9 @@
+{
+  "name": "adlc-core",
+  "version": "0.1.0",
+  "description": "Practical ADLC skills for bounded software delivery with AI coding agents.",
+  "author": {
+    "name": "Vecton"
+  },
+  "skills": "./skills/"
+}

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Thermo-nuclear code quality review"
+  short_description: "Assess concrete structural concerns"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,20 @@
+{
+  "name": "vecton-adlc",
+  "interface": {
+    "displayName": "Vecton ADLC"
+  },
+  "plugins": [
+    {
+      "name": "adlc-core",
+      "source": {
+        "source": "local",
+        "path": "./plugins/adlc-core"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "vecton-adlc",
+  "owner": {
+    "name": "Vecton"
+  },
+  "plugins": [
+    {
+      "name": "adlc-core",
+      "source": "./plugins/adlc-core",
+      "version": "0.1.0",
+      "description": "Standalone practical ADLC skills"
+    }
+  ],
+  "description": "Practical ADLC skills and workflow support for Claude Code and Codex."
+}
